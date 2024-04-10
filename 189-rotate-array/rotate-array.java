@@ -1,5 +1,6 @@
 class Solution {
     public void rotate(int[] arr, int k) {
+       
         int n = arr.length;
         k = k % n; // to handle cases where k is larger than n
         if (k < 0) {
